@@ -28,6 +28,11 @@ body {
 }
 
 //header
+    .header {
+        background: url("img/noise_transparent.png"),
+        radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
+        #211f20;
+    }
 
 .header__container {
     display: flex;
@@ -46,6 +51,7 @@ h1 {
     line-height: 3.5rem;
     letter-spacing: 0.06em;
     padding: 31px 0 1px 1px;
+    color: $color-primary;
 }
 
 .logo_subtitle {
@@ -56,6 +62,7 @@ h1 {
     line-height: 1.5rem;
     letter-spacing: 0.1em;
     padding: 10px 0 0 4px;
+    color: $color-light-xl;
 }
 
 .nav-panel {
@@ -64,10 +71,4 @@ h1 {
     width: 443px;
     justify-content: space-between;
     padding: 25px 0px 0px 0px;
-}
-
-.nav-menu {
-    li {
-
-    }
 }

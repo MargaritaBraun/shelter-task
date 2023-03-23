@@ -1,0 +1,23 @@
+.button-primary {
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+    color: $color-button;
+    margin-top: 42px;
+    cursor: pointer;
+    span {
+        width: 117px;
+        height: 22px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.06em;
+        color: $color-dark-3xl;
+    }
+
+    &:hover {
+        color: $color-button-active;
+    }
+}
