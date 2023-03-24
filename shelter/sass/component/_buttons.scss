@@ -2,22 +2,31 @@
     width: 207px;
     height: 52px;
     border-radius: 100px;
-    color: $color-button;
+    background-color: $color-button;
     margin-top: 42px;
     cursor: pointer;
     span {
         width: 117px;
         height: 22px;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.7rem;
-        line-height: 2.2rem;
-        letter-spacing: 0.06em;
-        color: $color-dark-3xl;
+        @include button-text;
     }
-
     &:hover {
-        color: $color-button-active;
+        background-color: $color-button-active;
     }
+}
+
+.button_secondary {
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    span {
+        @include button-text;
+    }
+}
+
+.button-pets-card {
+    background-color: #F1CDB3;
+    width: 261px;
+    height: 52px;
 }
